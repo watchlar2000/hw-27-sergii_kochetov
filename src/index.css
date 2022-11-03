@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;500&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.table {
+  width: 65%;
+  margin-top: 16px;
+  margin-inline: auto;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.row {
+  display: flex;
+}
+
+.head {
+  background: rgba(128, 0, 128, 0.75);
+  color: rgb(245, 245, 245);
+  font-size: 18px;
+}
+
+.col {
+  padding: 16px;
+  width: 25%;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
