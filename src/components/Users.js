@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Row from './Row';
+import UserItem from './UserItem';
 
 export default class Table extends Component {
   constructor(props) {
@@ -76,9 +76,9 @@ export default class Table extends Component {
   render() {
     return (
       <div className="table">
-        <Row />
+        <UserItem />
         {this.state.employees.map((employee) => {
-          return <Row employees={employee} key={employee.id} />;
+          return <UserItem employees={employee} key={employee.id} />;
         })}
       </div>
     );

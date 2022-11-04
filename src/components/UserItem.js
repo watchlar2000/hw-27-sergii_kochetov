@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Row extends Component {
+export default class UserItem extends Component {
   render() {
     const { name, surname, workdays, wagePerDay } = this.props.employees || {};
     return (
