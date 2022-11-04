@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import UserItem from './UserItem';
 
-export default class Table extends Component {
+export default class Users extends Component {
   constructor(props) {
     super(props);
     this.state = {
